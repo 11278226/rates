@@ -7,10 +7,9 @@ from datetime import datetime
 def scrape_hypotheker_all_products():
     url = "https://www.hypotheker.nl/en/mortgage-interest-rates/annuity-mortgage/10-year/"
     
-    print("🚀 Launching browser (Visual mode enabled so you can watch it)...")
+    print("🚀 Launching browser (Headless mode enabled for GitHub Actions)...")
     with sync_playwright() as p:
-        # Running with headless=False so you can physically watch it clear the wall
-        browser = p.chromium.launch(headless=True)
+        browser = p.chromium.launch(headless=True) 
         context = browser.new_context(viewport={"width": 1280, "height": 1000})
         page = context.new_page()
         
@@ -20,41 +19,50 @@ def scrape_hypotheker_all_products():
         
         print(f"🔗 Connecting to: {url}")
         page.goto(url, wait_until="networkidle")
-        page.wait_for_timeout(2000) # Give the cookie banner a moment to slide onto the screen
+        page.wait_for_timeout(2000) 
         
-        # --- NATIVE SHADOW-DOM PIERCING COOKIE CLICK ---
-        print("Targeting cookie wall button natively...")
+        # --- COOKIE BANNER DISMISSAL ---
+        print("Bypassing cookie consent wall...")
         try:
-            # Playwright natively pierces Shadow Roots when using text or role locators
             cookie_locator = page.get_by_role("button", name=re.compile(r"Accept|Accepteer|Akkoord", re.IGNORECASE)).first
-            
             if cookie_locator.is_visible():
-                print(f"🎯 Cookie button detected ('{cookie_locator.inner_text()}'). Clicking...")
                 cookie_locator.click()
-                print("🍪 Cookie wall dismissed successfully.")
+                print("🍪 Cookie wall dismissed via role locator.")
                 page.wait_for_timeout(1500)
             else:
-                print("⚠️ Cookie button not instantly visible via role. Trying fallback text locator...")
-                # Fallback text locator that also pierces shadow DOMs
-                page.locator('text=/^(Accept|Accepteer|Akkoord)$/i').first.click(timeout=3000)
-                print("🍪 Cookie wall dismissed via fallback locator.")
+                print("⚠️ Role locator missed cookie button. Running JS fallback evaluator...")
+                page.evaluate("""() => {
+                    const buttons = Array.from(document.querySelectorAll('button, div, span, a'));
+                    const btn = buttons.find(b => {
+                        const t = b.textContent.trim().toLowerCase();
+                        return t === 'accept' || t === 'accepteer' || t === 'akkoord';
+                    });
+                    if (btn) btn.click();
+                }""")
+                print("🍪 Cookie wall dismissed via fallback evaluator.")
                 page.wait_for_timeout(1500)
         except Exception as e:
-            print(f"ℹ️ Cookie banner processing skipped or already cleared: {e}")
+            print(f"ℹ️ Cookie step skipped or handled: {e}")
 
-        # --- SCROLL DOWN TO THE BUTTON ---
-        print("Scrolling down layout view to bring elements into viewport...")
+        # --- DROPDOWN SELECTION: CHANGE interestTariff TO > 100% ---
+        print("Selecting '> 100%' from interestTariff dropdown...")
+        try:
+            page.locator('#interestTariff').select_option(value='106')
+            print("✅ Selected '> 100%' (val=106). Waiting for page refresh...")
+            page.wait_for_timeout(5000)
+        except Exception as e:
+            print(f"❌ Failed to select interestTariff: {e}")
+
+        # --- SCROLL DOWN ---
+        print("Scrolling viewport to bring tables into view...")
         for _ in range(4):
             page.mouse.wheel(0, 500)
             page.wait_for_timeout(200)
 
-        # --- CLICK THE EXPANSION BUTTON NATIVELY ---
-        print("Looking for the 'Show all results' element...")
+        # --- CLICK EXPANSION BUTTON ---
+        print("Looking for the 'Show all results' expansion element...")
         try:
-            # Raw string regex pattern prevents syntax warnings and pierces layout fragments
             expand_btn = page.locator(r"text=/Show all \d+ results/i").first
-            
-            # Dutch fallback if browser context alters locale parameters
             if not expand_btn.is_visible():
                 expand_btn = page.locator(r"text=/Toon alle \d+ resultaten/i").first
 
@@ -62,24 +70,21 @@ def scrape_hypotheker_all_products():
                 print(f"⚡ Found expand element: '{expand_btn.inner_text()}'. Clicking...")
                 expand_btn.scroll_into_view_if_needed()
                 expand_btn.click()
-                print("✅ Click registered! Waiting 2 seconds for full list rendering...")
-                page.wait_for_timeout(2000)
+                print("✅ Click registered! Waiting for full list rendering...")
+                page.wait_for_timeout(4000)
                 
-                # Scroll all the way down the newly expanded content to load images/lazy rows
-                for _ in range(10):
-                    page.mouse.wheel(0, 500)
+                for _ in range(12):
+                    page.mouse.wheel(0, 600)
                     page.wait_for_timeout(150)
             else:
-                print("❌ Expansion element not visible on page layout. Taking screenshot to debug...")
-                page.screenshot(path="failed_to_find_button.png")
+                print("⚠️ Expansion button not visible. Scraping current view...")
         except Exception as e:
             print(f"❌ Failed clicking the expand element: {e}")
 
-        # Capture complete inflated source markup
         html_content = page.content()
         browser.close()
         
-    # --- BROAD PARSER RE-BUILT ---
+    # --- DATA PARSING LAYER (BeautifulSoup) ---
     soup = BeautifulSoup(html_content, 'html.parser')
     
     scraped_payload = {
@@ -95,37 +100,30 @@ def scrape_hypotheker_all_products():
         text = element.get_text(separator=" ", strip=True)
         
         if "Product" in text and "%" in text:
-            # 1. Extract interest rate
             rate_match = re.search(r'(\d+[\.,]\d+)\s*%', text)
             if not rate_match:
                 continue
             interest_rate = f"{rate_match.group(1)}%"
             
-            # 2. Extract Full Mortgage Display Name
             parts = text.split("Product")
             mortgage_name = parts[0].replace(".", "").strip()
-            mortgage_name = re.sub(r'\s+', ' ', mortgage_name) # clean up double spacing
+            mortgage_name = re.sub(r'\s+', ' ', mortgage_name)
             
-            # Filter out layout phrases caught as false positives
             if mortgage_name.lower() in ["rente", "product", "calculate", "show", "toon", "mortgage", "fixed", "annuity", ""] or len(mortgage_name) > 60:
                 continue
                 
-            # Deduplicate by the unique package product name
             if mortgage_name in seen_mortgages:
                 continue
             seen_mortgages.add(mortgage_name)
             
-            # 3. Cleanly Extract the Core Bank Name
             if mortgage_name.upper().startswith("ABN AMRO"):
                 bank_name = "ABN AMRO"
             elif mortgage_name.upper().startswith("ASR"):
                 bank_name = "ASR"
             else:
-                # Fallback to the first word if it's a standard single-word bank name
                 words = mortgage_name.split()
                 bank_name = words[0] if words else "Unknown"
             
-            # 4. Grab Logo Link
             img = element.find('img')
             logo = img['src'] if (img and img.get('src')) else "N/A"
             if logo.startswith('/'):
@@ -139,7 +137,7 @@ def scrape_hypotheker_all_products():
                 "logo_url": logo
             })
 
-    # --- FALLBACK PROTECTION CLEANUP ---
+    # --- FALLBACK PROTECTION ---
     if len(scraped_payload["rates"]) <= 10:
         print("Running table-row fallback extraction fallback strategy...")
         for row in soup.find_all('tr'):
@@ -169,7 +167,6 @@ def scrape_hypotheker_all_products():
                     "logo_url": logo
                 })
 
-    # Write out data package
     output_file = "hypotheker_products_complete.json"
     with open(output_file, 'w', encoding='utf-8') as f:
         json.dump(scraped_payload, f, indent=4, ensure_ascii=False)
