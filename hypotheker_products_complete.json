@@ -1,6 +1,10 @@
 {
     "source_url": "https://www.hypotheker.nl/en/mortgage-interest-rates/annuity-mortgage/10-year/",
+<<<<<<< HEAD
     "scraped_at": "2026-05-20T19:35:57.470271",
+=======
+    "scraped_at": "2026-05-20T14:13:49.269997",
+>>>>>>> refs/remotes/origin/main
     "fixed_term": "10-year",
     "rates": [
         {
