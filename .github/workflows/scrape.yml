@@ -31,7 +31,7 @@ jobs:
           playwright install-deps # Installs Linux system dependencies required by Playwright
 
       - name: Run the scraper script
-        run: python scrape_all_products.py # Make sure this matches your exact python file name!
+        run: python scrape_rates.py # Make sure this matches your exact python file name!
 
       - name: Commit and push the updated JSON
         run: |
