@@ -3,8 +3,8 @@ name: Daily Mortgage Scraper
 # This tells GitHub WHEN to run the script
 on:
   schedule:
-    # Runs at 06:00 UTC (07:00 or 08:00 AM in the Netherlands depending on daylight savings)
-    - cron: '0 6 * * *' 
+    # Runs at 07:17 UTC on the default branch
+    - cron: '17 7 * * *'
   workflow_dispatch: # This adds a manual "Run Workflow" button on GitHub so you can test it anytime
 
 # Gives the script permission to save the JSON file back to the repo
