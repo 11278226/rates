@@ -1,6 +1,6 @@
 {
     "source_url": "https://www.hypotheker.nl/en/mortgage-interest-rates/annuity-mortgage/",
-    "scraped_at": "2026-05-21T09:20:53.175489",
+    "scraped_at": "2026-05-22T10:30:47.838409",
     "ltv_filter": "> 100%",
     "mortgage_type": "Annuity",
     "rates_by_term": {
@@ -10,7 +10,7 @@
                 "mortgage_name": "Centraal Beheer Leef Hypotheek",
                 "mortgage_type": "Annuity",
                 "fixed_term": "5-year",
-                "interest_rate": "3.86%",
+                "interest_rate": "3.93%",
                 "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-Centraalbeheer.png"
             },
             {
@@ -118,14 +118,6 @@
                 "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-NIBC.png"
             },
             {
-                "bank_name": "Tulp",
-                "mortgage_name": "Tulp Compleet Hypotheek",
-                "mortgage_type": "Annuity",
-                "fixed_term": "5-year",
-                "interest_rate": "4.31%",
-                "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-Tulp.png"
-            },
-            {
                 "bank_name": "Nationale",
                 "mortgage_name": "Nationale Nederlanden Hypotheek",
                 "mortgage_type": "Annuity",
@@ -158,12 +150,12 @@
                 "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-NIBC.png"
             },
             {
-                "bank_name": "Argenta",
-                "mortgage_name": "Argenta Hypotheek",
+                "bank_name": "Tulp",
+                "mortgage_name": "Tulp Compleet Hypotheek",
                 "mortgage_type": "Annuity",
                 "fixed_term": "5-year",
                 "interest_rate": "4.36%",
-                "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-Argenta.png"
+                "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-Tulp.png"
             },
             {
                 "bank_name": "Vista",
@@ -180,6 +172,14 @@
                 "fixed_term": "5-year",
                 "interest_rate": "4.38%",
                 "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-Florius.png"
+            },
+            {
+                "bank_name": "Argenta",
+                "mortgage_name": "Argenta Hypotheek",
+                "mortgage_type": "Annuity",
+                "fixed_term": "5-year",
+                "interest_rate": "4.46%",
+                "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-Argenta.png"
             },
             {
                 "bank_name": "Florius",
@@ -218,7 +218,7 @@
                 "mortgage_name": "bunq Easy Mortgage",
                 "mortgage_type": "Annuity",
                 "fixed_term": "5-year",
-                "interest_rate": "5.07%",
+                "interest_rate": "5.17%",
                 "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-Bunq.svg"
             }
         ],
@@ -228,16 +228,8 @@
                 "mortgage_name": "bijBouwe Vooruit Hypotheek",
                 "mortgage_type": "Annuity",
                 "fixed_term": "10-year",
-                "interest_rate": "4.09%",
+                "interest_rate": "4.15%",
                 "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-BijBouwe-Vooruit.svg"
-            },
-            {
-                "bank_name": "Centraal",
-                "mortgage_name": "Centraal Beheer Leef Hypotheek",
-                "mortgage_type": "Annuity",
-                "fixed_term": "10-year",
-                "interest_rate": "4.14%",
-                "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-Centraalbeheer.png"
             },
             {
                 "bank_name": "Vista",
@@ -254,6 +246,14 @@
                 "fixed_term": "10-year",
                 "interest_rate": "4.23%",
                 "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-ASN-Bank.png"
+            },
+            {
+                "bank_name": "Centraal",
+                "mortgage_name": "Centraal Beheer Leef Hypotheek",
+                "mortgage_type": "Annuity",
+                "fixed_term": "10-year",
+                "interest_rate": "4.24%",
+                "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-Centraalbeheer.png"
             },
             {
                 "bank_name": "ASR",
@@ -352,28 +352,12 @@
                 "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-NIBC.png"
             },
             {
-                "bank_name": "Tulp",
-                "mortgage_name": "Tulp Compleet Hypotheek",
-                "mortgage_type": "Annuity",
-                "fixed_term": "10-year",
-                "interest_rate": "4.50%",
-                "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-Tulp.png"
-            },
-            {
                 "bank_name": "Florius",
                 "mortgage_name": "Florius Profijt drie + drie Hypotheek",
                 "mortgage_type": "Annuity",
                 "fixed_term": "10-year",
                 "interest_rate": "4.52%",
                 "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-Florius.png"
-            },
-            {
-                "bank_name": "Argenta",
-                "mortgage_name": "Argenta Hypotheek",
-                "mortgage_type": "Annuity",
-                "fixed_term": "10-year",
-                "interest_rate": "4.54%",
-                "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-Argenta.png"
             },
             {
                 "bank_name": "Syntrus",
@@ -392,12 +376,12 @@
                 "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-Rabobank.png"
             },
             {
-                "bank_name": "Nationale",
-                "mortgage_name": "Nationale Nederlanden Hypotheek",
+                "bank_name": "Tulp",
+                "mortgage_name": "Tulp Compleet Hypotheek",
                 "mortgage_type": "Annuity",
                 "fixed_term": "10-year",
-                "interest_rate": "4.58%",
-                "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-NN.png"
+                "interest_rate": "4.55%",
+                "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-Tulp.png"
             },
             {
                 "bank_name": "Lot",
@@ -416,12 +400,28 @@
                 "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-Hypotrust.png"
             },
             {
+                "bank_name": "Argenta",
+                "mortgage_name": "Argenta Hypotheek",
+                "mortgage_type": "Annuity",
+                "fixed_term": "10-year",
+                "interest_rate": "4.64%",
+                "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-Argenta.png"
+            },
+            {
                 "bank_name": "Florius",
                 "mortgage_name": "Florius Profijt twaalf Hypotheek",
                 "mortgage_type": "Annuity",
                 "fixed_term": "10-year",
                 "interest_rate": "4.67%",
                 "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-Florius.png"
+            },
+            {
+                "bank_name": "Nationale",
+                "mortgage_name": "Nationale Nederlanden Hypotheek",
+                "mortgage_type": "Annuity",
+                "fixed_term": "10-year",
+                "interest_rate": "4.68%",
+                "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-NN.png"
             },
             {
                 "bank_name": "Merius",
@@ -444,7 +444,7 @@
                 "mortgage_name": "bunq Easy Mortgage",
                 "mortgage_type": "Annuity",
                 "fixed_term": "10-year",
-                "interest_rate": "5.18%",
+                "interest_rate": "5.28%",
                 "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-Bunq.svg"
             }
         ]
