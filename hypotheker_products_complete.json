@@ -1,6 +1,6 @@
 {
     "source_url": "https://www.hypotheker.nl/en/mortgage-interest-rates/annuity-mortgage/",
-    "scraped_at": "2026-05-27T11:02:36.597098",
+    "scraped_at": "2026-05-28T11:04:03.412159",
     "ltv_filter": "> 100%",
     "mortgage_type": "Annuity",
     "rates_by_term": {
@@ -10,7 +10,7 @@
                 "mortgage_name": "Centraal Beheer Leef Hypotheek",
                 "mortgage_type": "Annuity",
                 "fixed_term": "5-year",
-                "interest_rate": "3.93%",
+                "interest_rate": "3.89%",
                 "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-Centraalbeheer.png"
             },
             {
@@ -62,20 +62,20 @@
                 "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-ASN-Bank.png"
             },
             {
-                "bank_name": "Clarian",
-                "mortgage_name": "Clarian Wonen Hypotheek",
-                "mortgage_type": "Annuity",
-                "fixed_term": "5-year",
-                "interest_rate": "4.11%",
-                "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-ClarianWonen.png"
-            },
-            {
                 "bank_name": "ING",
                 "mortgage_name": "ING Hypotheek",
                 "mortgage_type": "Annuity",
                 "fixed_term": "5-year",
                 "interest_rate": "4.14%",
                 "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-ING.png"
+            },
+            {
+                "bank_name": "Clarian",
+                "mortgage_name": "Clarian Wonen Hypotheek",
+                "mortgage_type": "Annuity",
+                "fixed_term": "5-year",
+                "interest_rate": "4.16%",
+                "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-ClarianWonen.png"
             },
             {
                 "bank_name": "ABN AMRO",
@@ -218,11 +218,19 @@
                 "mortgage_name": "bunq Easy Mortgage",
                 "mortgage_type": "Annuity",
                 "fixed_term": "5-year",
-                "interest_rate": "5.17%",
+                "interest_rate": "5.22%",
                 "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-Bunq.svg"
             }
         ],
         "10-year": [
+            {
+                "bank_name": "Centraal",
+                "mortgage_name": "Centraal Beheer Leef Hypotheek",
+                "mortgage_type": "Annuity",
+                "fixed_term": "10-year",
+                "interest_rate": "4.06%",
+                "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-Centraalbeheer.png"
+            },
             {
                 "bank_name": "bijBouwe",
                 "mortgage_name": "bijBouwe Vooruit Hypotheek",
@@ -254,14 +262,6 @@
                 "fixed_term": "10-year",
                 "interest_rate": "4.22%",
                 "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-Vista.png"
-            },
-            {
-                "bank_name": "Centraal",
-                "mortgage_name": "Centraal Beheer Leef Hypotheek",
-                "mortgage_type": "Annuity",
-                "fixed_term": "10-year",
-                "interest_rate": "4.24%",
-                "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-Centraalbeheer.png"
             },
             {
                 "bank_name": "ASN",
@@ -304,20 +304,20 @@
                 "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-ABNAMRO.png"
             },
             {
-                "bank_name": "Clarian",
-                "mortgage_name": "Clarian Wonen Hypotheek",
-                "mortgage_type": "Annuity",
-                "fixed_term": "10-year",
-                "interest_rate": "4.33%",
-                "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-ClarianWonen.png"
-            },
-            {
                 "bank_name": "Rabobank",
                 "mortgage_name": "Rabobank Hypotheek met Basisvoorwaarden",
                 "mortgage_type": "Annuity",
                 "fixed_term": "10-year",
                 "interest_rate": "4.33%",
                 "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-Rabobank.png"
+            },
+            {
+                "bank_name": "Clarian",
+                "mortgage_name": "Clarian Wonen Hypotheek",
+                "mortgage_type": "Annuity",
+                "fixed_term": "10-year",
+                "interest_rate": "4.36%",
+                "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-ClarianWonen.png"
             },
             {
                 "bank_name": "ING",
@@ -444,7 +444,7 @@
                 "mortgage_name": "bunq Easy Mortgage",
                 "mortgage_type": "Annuity",
                 "fixed_term": "10-year",
-                "interest_rate": "5.28%",
+                "interest_rate": "5.33%",
                 "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-Bunq.svg"
             }
         ]
