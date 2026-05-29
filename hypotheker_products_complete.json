@@ -1,6 +1,6 @@
 {
     "source_url": "https://www.hypotheker.nl/en/mortgage-interest-rates/annuity-mortgage/",
-    "scraped_at": "2026-05-28T11:04:03.412159",
+    "scraped_at": "2026-05-29T10:55:43.810935",
     "ltv_filter": "> 100%",
     "mortgage_type": "Annuity",
     "rates_by_term": {
@@ -94,6 +94,14 @@
                 "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-Syntrus.png"
             },
             {
+                "bank_name": "NIBC",
+                "mortgage_name": "NIBC Hypotheek",
+                "mortgage_type": "Annuity",
+                "fixed_term": "5-year",
+                "interest_rate": "4.25%",
+                "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-NIBC.png"
+            },
+            {
                 "bank_name": "Attens",
                 "mortgage_name": "Attens Hypotheek",
                 "mortgage_type": "Annuity",
@@ -111,7 +119,7 @@
             },
             {
                 "bank_name": "NIBC",
-                "mortgage_name": "NIBC Hypotheek",
+                "mortgage_name": "NIBC Extra Hypotheek",
                 "mortgage_type": "Annuity",
                 "fixed_term": "5-year",
                 "interest_rate": "4.30%",
@@ -140,14 +148,6 @@
                 "fixed_term": "5-year",
                 "interest_rate": "4.35%",
                 "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-Hypotrust.png"
-            },
-            {
-                "bank_name": "NIBC",
-                "mortgage_name": "NIBC Extra Hypotheek",
-                "mortgage_type": "Annuity",
-                "fixed_term": "5-year",
-                "interest_rate": "4.35%",
-                "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-NIBC.png"
             },
             {
                 "bank_name": "Tulp",
@@ -236,8 +236,16 @@
                 "mortgage_name": "bijBouwe Vooruit Hypotheek",
                 "mortgage_type": "Annuity",
                 "fixed_term": "10-year",
-                "interest_rate": "4.15%",
+                "interest_rate": "4.11%",
                 "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-BijBouwe-Vooruit.svg"
+            },
+            {
+                "bank_name": "Vista",
+                "mortgage_name": "Vista Hypotheek",
+                "mortgage_type": "Annuity",
+                "fixed_term": "10-year",
+                "interest_rate": "4.15%",
+                "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-Vista.png"
             },
             {
                 "bank_name": "MUNT",
@@ -256,19 +264,11 @@
                 "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-ASR.png"
             },
             {
-                "bank_name": "Vista",
-                "mortgage_name": "Vista Hypotheek",
-                "mortgage_type": "Annuity",
-                "fixed_term": "10-year",
-                "interest_rate": "4.22%",
-                "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-Vista.png"
-            },
-            {
                 "bank_name": "ASN",
                 "mortgage_name": "ASN Bespaarhypotheek",
                 "mortgage_type": "Annuity",
                 "fixed_term": "10-year",
-                "interest_rate": "4.26%",
+                "interest_rate": "4.22%",
                 "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-ASN-Bank.png"
             },
             {
@@ -312,6 +312,14 @@
                 "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-Rabobank.png"
             },
             {
+                "bank_name": "NIBC",
+                "mortgage_name": "NIBC Hypotheek",
+                "mortgage_type": "Annuity",
+                "fixed_term": "10-year",
+                "interest_rate": "4.35%",
+                "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-NIBC.png"
+            },
+            {
                 "bank_name": "Clarian",
                 "mortgage_name": "Clarian Wonen Hypotheek",
                 "mortgage_type": "Annuity",
@@ -329,10 +337,10 @@
             },
             {
                 "bank_name": "NIBC",
-                "mortgage_name": "NIBC Hypotheek",
+                "mortgage_name": "NIBC Extra Hypotheek",
                 "mortgage_type": "Annuity",
                 "fixed_term": "10-year",
-                "interest_rate": "4.45%",
+                "interest_rate": "4.40%",
                 "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-NIBC.png"
             },
             {
@@ -342,14 +350,6 @@
                 "fixed_term": "10-year",
                 "interest_rate": "4.48%",
                 "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-ABNAMRO.png"
-            },
-            {
-                "bank_name": "NIBC",
-                "mortgage_name": "NIBC Extra Hypotheek",
-                "mortgage_type": "Annuity",
-                "fixed_term": "10-year",
-                "interest_rate": "4.50%",
-                "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-NIBC.png"
             },
             {
                 "bank_name": "Florius",
