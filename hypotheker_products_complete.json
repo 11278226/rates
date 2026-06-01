@@ -1,6 +1,6 @@
 {
     "source_url": "https://www.hypotheker.nl/en/mortgage-interest-rates/annuity-mortgage/",
-    "scraped_at": "2026-05-31T09:51:45.728111",
+    "scraped_at": "2026-06-01T12:50:59.743069",
     "ltv_filter": "> 100%",
     "mortgage_type": "Annuity",
     "rates_by_term": {
@@ -178,7 +178,7 @@
                 "mortgage_name": "Argenta Hypotheek",
                 "mortgage_type": "Annuity",
                 "fixed_term": "5-year",
-                "interest_rate": "4.46%",
+                "interest_rate": "4.41%",
                 "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-Argenta.png"
             },
             {
@@ -384,6 +384,14 @@
                 "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-Tulp.png"
             },
             {
+                "bank_name": "Argenta",
+                "mortgage_name": "Argenta Hypotheek",
+                "mortgage_type": "Annuity",
+                "fixed_term": "10-year",
+                "interest_rate": "4.56%",
+                "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-Argenta.png"
+            },
+            {
                 "bank_name": "Lot",
                 "mortgage_name": "Lot Hypotheek",
                 "mortgage_type": "Annuity",
@@ -398,14 +406,6 @@
                 "fixed_term": "10-year",
                 "interest_rate": "4.61%",
                 "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-Hypotrust.png"
-            },
-            {
-                "bank_name": "Argenta",
-                "mortgage_name": "Argenta Hypotheek",
-                "mortgage_type": "Annuity",
-                "fixed_term": "10-year",
-                "interest_rate": "4.64%",
-                "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-Argenta.png"
             },
             {
                 "bank_name": "Florius",
