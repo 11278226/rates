@@ -1,6 +1,6 @@
 {
     "source_url": "https://www.hypotheker.nl/en/mortgage-interest-rates/annuity-mortgage/",
-    "scraped_at": "2026-06-01T12:50:59.743069",
+    "scraped_at": "2026-06-02T11:44:00.932309",
     "ltv_filter": "> 100%",
     "mortgage_type": "Annuity",
     "rates_by_term": {
@@ -18,7 +18,7 @@
                 "mortgage_name": "MUNT Hypotheek",
                 "mortgage_type": "Annuity",
                 "fixed_term": "5-year",
-                "interest_rate": "3.95%",
+                "interest_rate": "3.89%",
                 "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-Munt.png"
             },
             {
@@ -38,20 +38,20 @@
                 "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-ASN-Bank.png"
             },
             {
+                "bank_name": "Obvion",
+                "mortgage_name": "Obvion Woon Hypotheek",
+                "mortgage_type": "Annuity",
+                "fixed_term": "5-year",
+                "interest_rate": "4.04%",
+                "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-Obvion.png"
+            },
+            {
                 "bank_name": "ABN AMRO",
                 "mortgage_name": "ABN AMRO Budget Hypotheek",
                 "mortgage_type": "Annuity",
                 "fixed_term": "5-year",
                 "interest_rate": "4.09%",
                 "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-ABNAMRO.png"
-            },
-            {
-                "bank_name": "Obvion",
-                "mortgage_name": "Obvion Woon Hypotheek",
-                "mortgage_type": "Annuity",
-                "fixed_term": "5-year",
-                "interest_rate": "4.10%",
-                "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-Obvion.png"
             },
             {
                 "bank_name": "ASN",
@@ -126,14 +126,6 @@
                 "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-NIBC.png"
             },
             {
-                "bank_name": "Nationale",
-                "mortgage_name": "Nationale Nederlanden Hypotheek",
-                "mortgage_type": "Annuity",
-                "fixed_term": "5-year",
-                "interest_rate": "4.33%",
-                "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-NN.png"
-            },
-            {
                 "bank_name": "Rabobank",
                 "mortgage_name": "Rabobank Hypotheek met Basisvoorwaarden",
                 "mortgage_type": "Annuity",
@@ -172,6 +164,14 @@
                 "fixed_term": "5-year",
                 "interest_rate": "4.38%",
                 "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-Florius.png"
+            },
+            {
+                "bank_name": "Nationale",
+                "mortgage_name": "Nationale Nederlanden Hypotheek",
+                "mortgage_type": "Annuity",
+                "fixed_term": "5-year",
+                "interest_rate": "4.38%",
+                "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-NN.png"
             },
             {
                 "bank_name": "Argenta",
@@ -224,6 +224,14 @@
         ],
         "10-year": [
             {
+                "bank_name": "bijBouwe",
+                "mortgage_name": "bijBouwe Vooruit Hypotheek",
+                "mortgage_type": "Annuity",
+                "fixed_term": "10-year",
+                "interest_rate": "4.06%",
+                "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-BijBouwe-Vooruit.svg"
+            },
+            {
                 "bank_name": "Centraal",
                 "mortgage_name": "Centraal Beheer Leef Hypotheek",
                 "mortgage_type": "Annuity",
@@ -232,12 +240,20 @@
                 "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-Centraalbeheer.png"
             },
             {
-                "bank_name": "bijBouwe",
-                "mortgage_name": "bijBouwe Vooruit Hypotheek",
+                "bank_name": "MUNT",
+                "mortgage_name": "MUNT Hypotheek",
                 "mortgage_type": "Annuity",
                 "fixed_term": "10-year",
                 "interest_rate": "4.11%",
-                "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-BijBouwe-Vooruit.svg"
+                "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-Munt.png"
+            },
+            {
+                "bank_name": "ASR",
+                "mortgage_name": "ASR Hypotheek",
+                "mortgage_type": "Annuity",
+                "fixed_term": "10-year",
+                "interest_rate": "4.15%",
+                "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-ASR.png"
             },
             {
                 "bank_name": "Vista",
@@ -248,28 +264,20 @@
                 "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-Vista.png"
             },
             {
-                "bank_name": "MUNT",
-                "mortgage_name": "MUNT Hypotheek",
-                "mortgage_type": "Annuity",
-                "fixed_term": "10-year",
-                "interest_rate": "4.17%",
-                "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-Munt.png"
-            },
-            {
-                "bank_name": "ASR",
-                "mortgage_name": "ASR Hypotheek",
-                "mortgage_type": "Annuity",
-                "fixed_term": "10-year",
-                "interest_rate": "4.20%",
-                "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-ASR.png"
-            },
-            {
                 "bank_name": "ASN",
                 "mortgage_name": "ASN Bespaarhypotheek",
                 "mortgage_type": "Annuity",
                 "fixed_term": "10-year",
                 "interest_rate": "4.22%",
                 "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-ASN-Bank.png"
+            },
+            {
+                "bank_name": "Obvion",
+                "mortgage_name": "Obvion Woon Hypotheek",
+                "mortgage_type": "Annuity",
+                "fixed_term": "10-year",
+                "interest_rate": "4.26%",
+                "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-Obvion.png"
             },
             {
                 "bank_name": "Attens",
@@ -280,28 +288,20 @@
                 "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-Attens.png"
             },
             {
+                "bank_name": "ABN AMRO",
+                "mortgage_name": "ABN AMRO Budget Hypotheek",
+                "mortgage_type": "Annuity",
+                "fixed_term": "10-year",
+                "interest_rate": "4.29%",
+                "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-ABNAMRO.png"
+            },
+            {
                 "bank_name": "ASN",
                 "mortgage_name": "ASN Hypotheek",
                 "mortgage_type": "Annuity",
                 "fixed_term": "10-year",
                 "interest_rate": "4.31%",
                 "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-ASN-Bank.png"
-            },
-            {
-                "bank_name": "Obvion",
-                "mortgage_name": "Obvion Woon Hypotheek",
-                "mortgage_type": "Annuity",
-                "fixed_term": "10-year",
-                "interest_rate": "4.32%",
-                "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-Obvion.png"
-            },
-            {
-                "bank_name": "ABN AMRO",
-                "mortgage_name": "ABN AMRO Budget Hypotheek",
-                "mortgage_type": "Annuity",
-                "fixed_term": "10-year",
-                "interest_rate": "4.33%",
-                "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-ABNAMRO.png"
             },
             {
                 "bank_name": "Rabobank",
@@ -348,7 +348,7 @@
                 "mortgage_name": "ABN AMRO Woning Hypotheek",
                 "mortgage_type": "Annuity",
                 "fixed_term": "10-year",
-                "interest_rate": "4.48%",
+                "interest_rate": "4.44%",
                 "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-ABNAMRO.png"
             },
             {
@@ -356,7 +356,7 @@
                 "mortgage_name": "Florius Profijt drie + drie Hypotheek",
                 "mortgage_type": "Annuity",
                 "fixed_term": "10-year",
-                "interest_rate": "4.52%",
+                "interest_rate": "4.48%",
                 "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-Florius.png"
             },
             {
@@ -392,6 +392,14 @@
                 "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-Argenta.png"
             },
             {
+                "bank_name": "Nationale",
+                "mortgage_name": "Nationale Nederlanden Hypotheek",
+                "mortgage_type": "Annuity",
+                "fixed_term": "10-year",
+                "interest_rate": "4.58%",
+                "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-NN.png"
+            },
+            {
                 "bank_name": "Lot",
                 "mortgage_name": "Lot Hypotheek",
                 "mortgage_type": "Annuity",
@@ -412,16 +420,8 @@
                 "mortgage_name": "Florius Profijt twaalf Hypotheek",
                 "mortgage_type": "Annuity",
                 "fixed_term": "10-year",
-                "interest_rate": "4.67%",
+                "interest_rate": "4.63%",
                 "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-Florius.png"
-            },
-            {
-                "bank_name": "Nationale",
-                "mortgage_name": "Nationale Nederlanden Hypotheek",
-                "mortgage_type": "Annuity",
-                "fixed_term": "10-year",
-                "interest_rate": "4.68%",
-                "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-NN.png"
             },
             {
                 "bank_name": "Merius",
