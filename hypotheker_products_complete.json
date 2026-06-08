@@ -1,6 +1,6 @@
 {
     "source_url": "https://www.hypotheker.nl/en/mortgage-interest-rates/annuity-mortgage/",
-    "scraped_at": "2026-06-07T10:10:56.245892",
+    "scraped_at": "2026-06-08T12:09:13.492975",
     "ltv_filter": "> 100%",
     "mortgage_type": "Annuity",
     "rates_by_term": {
@@ -110,6 +110,14 @@
                 "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-NIBC.png"
             },
             {
+                "bank_name": "Rabobank",
+                "mortgage_name": "Rabobank Hypotheek met Basisvoorwaarden",
+                "mortgage_type": "Annuity",
+                "fixed_term": "5-year",
+                "interest_rate": "4.28%",
+                "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-Rabobank.png"
+            },
+            {
                 "bank_name": "Lot",
                 "mortgage_name": "Lot Hypotheek",
                 "mortgage_type": "Annuity",
@@ -132,14 +140,6 @@
                 "fixed_term": "5-year",
                 "interest_rate": "4.33%",
                 "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-Florius.png"
-            },
-            {
-                "bank_name": "Rabobank",
-                "mortgage_name": "Rabobank Hypotheek met Basisvoorwaarden",
-                "mortgage_type": "Annuity",
-                "fixed_term": "5-year",
-                "interest_rate": "4.33%",
-                "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-Rabobank.png"
             },
             {
                 "bank_name": "Tulp",
@@ -194,7 +194,7 @@
                 "mortgage_name": "Rabobank Hypotheek met Plusvoorwaarden",
                 "mortgage_type": "Annuity",
                 "fixed_term": "5-year",
-                "interest_rate": "4.55%",
+                "interest_rate": "4.50%",
                 "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-Rabobank.png"
             },
             {
@@ -304,20 +304,20 @@
                 "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-ASN-Bank.png"
             },
             {
+                "bank_name": "Rabobank",
+                "mortgage_name": "Rabobank Hypotheek met Basisvoorwaarden",
+                "mortgage_type": "Annuity",
+                "fixed_term": "10-year",
+                "interest_rate": "4.28%",
+                "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-Rabobank.png"
+            },
+            {
                 "bank_name": "ING",
                 "mortgage_name": "ING Hypotheek",
                 "mortgage_type": "Annuity",
                 "fixed_term": "10-year",
                 "interest_rate": "4.32%",
                 "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-ING.png"
-            },
-            {
-                "bank_name": "Rabobank",
-                "mortgage_name": "Rabobank Hypotheek met Basisvoorwaarden",
-                "mortgage_type": "Annuity",
-                "fixed_term": "10-year",
-                "interest_rate": "4.33%",
-                "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-Rabobank.png"
             },
             {
                 "bank_name": "NIBC",
@@ -360,20 +360,20 @@
                 "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-Florius.png"
             },
             {
+                "bank_name": "Rabobank",
+                "mortgage_name": "Rabobank Hypotheek met Plusvoorwaarden",
+                "mortgage_type": "Annuity",
+                "fixed_term": "10-year",
+                "interest_rate": "4.50%",
+                "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-Rabobank.png"
+            },
+            {
                 "bank_name": "Syntrus",
                 "mortgage_name": "Syntrus Achmea Basishypotheek",
                 "mortgage_type": "Annuity",
                 "fixed_term": "10-year",
                 "interest_rate": "4.54%",
                 "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-Syntrus.png"
-            },
-            {
-                "bank_name": "Rabobank",
-                "mortgage_name": "Rabobank Hypotheek met Plusvoorwaarden",
-                "mortgage_type": "Annuity",
-                "fixed_term": "10-year",
-                "interest_rate": "4.55%",
-                "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-Rabobank.png"
             },
             {
                 "bank_name": "Tulp",
