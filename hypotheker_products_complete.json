@@ -1,18 +1,10 @@
 {
     "source_url": "https://www.hypotheker.nl/en/mortgage-interest-rates/annuity-mortgage/",
-    "scraped_at": "2026-06-10T11:05:04.601533",
+    "scraped_at": "2026-06-11T11:49:25.858109",
     "ltv_filter": "> 100%",
     "mortgage_type": "Annuity",
     "rates_by_term": {
         "5-year": [
-            {
-                "bank_name": "Centraal",
-                "mortgage_name": "Centraal Beheer Leef Hypotheek",
-                "mortgage_type": "Annuity",
-                "fixed_term": "5-year",
-                "interest_rate": "3.89%",
-                "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-Centraalbeheer.png"
-            },
             {
                 "bank_name": "MUNT",
                 "mortgage_name": "MUNT Hypotheek",
@@ -20,6 +12,14 @@
                 "fixed_term": "5-year",
                 "interest_rate": "3.89%",
                 "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-Munt.png"
+            },
+            {
+                "bank_name": "Centraal",
+                "mortgage_name": "Centraal Beheer Leef Hypotheek",
+                "mortgage_type": "Annuity",
+                "fixed_term": "5-year",
+                "interest_rate": "3.95%",
+                "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-Centraalbeheer.png"
             },
             {
                 "bank_name": "Obvion",
@@ -232,28 +232,12 @@
                 "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-BijBouwe-Vooruit.svg"
             },
             {
-                "bank_name": "Centraal",
-                "mortgage_name": "Centraal Beheer Leef Hypotheek",
-                "mortgage_type": "Annuity",
-                "fixed_term": "10-year",
-                "interest_rate": "4.06%",
-                "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-Centraalbeheer.png"
-            },
-            {
                 "bank_name": "Vista",
                 "mortgage_name": "Vista Hypotheek",
                 "mortgage_type": "Annuity",
                 "fixed_term": "10-year",
-                "interest_rate": "4.10%",
+                "interest_rate": "4.12%",
                 "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-Vista.png"
-            },
-            {
-                "bank_name": "MUNT",
-                "mortgage_name": "MUNT Hypotheek",
-                "mortgage_type": "Annuity",
-                "fixed_term": "10-year",
-                "interest_rate": "4.11%",
-                "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-Munt.png"
             },
             {
                 "bank_name": "Attens",
@@ -264,12 +248,28 @@
                 "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-Attens.png"
             },
             {
+                "bank_name": "Centraal",
+                "mortgage_name": "Centraal Beheer Leef Hypotheek",
+                "mortgage_type": "Annuity",
+                "fixed_term": "10-year",
+                "interest_rate": "4.14%",
+                "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-Centraalbeheer.png"
+            },
+            {
                 "bank_name": "ASN",
                 "mortgage_name": "ASN Bespaarhypotheek",
                 "mortgage_type": "Annuity",
                 "fixed_term": "10-year",
                 "interest_rate": "4.16%",
                 "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-ASN-Bank.png"
+            },
+            {
+                "bank_name": "MUNT",
+                "mortgage_name": "MUNT Hypotheek",
+                "mortgage_type": "Annuity",
+                "fixed_term": "10-year",
+                "interest_rate": "4.19%",
+                "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-Munt.png"
             },
             {
                 "bank_name": "ASR",
