@@ -1,6 +1,6 @@
 {
     "source_url": "https://www.hypotheker.nl/en/mortgage-interest-rates/annuity-mortgage/",
-    "scraped_at": "2026-06-15T13:29:02.489567",
+    "scraped_at": "2026-06-16T12:23:45.989961",
     "ltv_filter": "> 100%",
     "mortgage_type": "Annuity",
     "rates_by_term": {
@@ -264,20 +264,20 @@
                 "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-Centraalbeheer.png"
             },
             {
+                "bank_name": "ASR",
+                "mortgage_name": "ASR Hypotheek",
+                "mortgage_type": "Annuity",
+                "fixed_term": "10-year",
+                "interest_rate": "4.15%",
+                "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-ASR.png"
+            },
+            {
                 "bank_name": "MUNT",
                 "mortgage_name": "MUNT Hypotheek",
                 "mortgage_type": "Annuity",
                 "fixed_term": "10-year",
                 "interest_rate": "4.19%",
                 "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-Munt.png"
-            },
-            {
-                "bank_name": "ASR",
-                "mortgage_name": "ASR Hypotheek",
-                "mortgage_type": "Annuity",
-                "fixed_term": "10-year",
-                "interest_rate": "4.22%",
-                "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-ASR.png"
             },
             {
                 "bank_name": "Obvion",
