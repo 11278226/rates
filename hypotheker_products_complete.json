@@ -1,6 +1,6 @@
 {
     "source_url": "https://www.hypotheker.nl/en/mortgage-interest-rates/annuity-mortgage/",
-    "scraped_at": "2026-06-24T10:29:17.379379",
+    "scraped_at": "2026-06-25T10:22:11.424242",
     "ltv_filter": "> 100%",
     "mortgage_type": "Annuity",
     "rates_by_term": {
@@ -26,7 +26,7 @@
                 "mortgage_name": "Obvion Woon Hypotheek",
                 "mortgage_type": "Annuity",
                 "fixed_term": "5-year",
-                "interest_rate": "3.98%",
+                "interest_rate": "3.96%",
                 "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-Obvion.png"
             },
             {
@@ -218,7 +218,7 @@
                 "mortgage_name": "bunq Easy Mortgage",
                 "mortgage_type": "Annuity",
                 "fixed_term": "5-year",
-                "interest_rate": "5.08%",
+                "interest_rate": "5.05%",
                 "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-Bunq.svg"
             }
         ],
@@ -280,20 +280,20 @@
                 "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-ASR.png"
             },
             {
+                "bank_name": "Obvion",
+                "mortgage_name": "Obvion Woon Hypotheek",
+                "mortgage_type": "Annuity",
+                "fixed_term": "10-year",
+                "interest_rate": "4.18%",
+                "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-Obvion.png"
+            },
+            {
                 "bank_name": "ABN AMRO",
                 "mortgage_name": "ABN AMRO Budget Hypotheek",
                 "mortgage_type": "Annuity",
                 "fixed_term": "10-year",
                 "interest_rate": "4.20%",
                 "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-ABNAMRO.png"
-            },
-            {
-                "bank_name": "Obvion",
-                "mortgage_name": "Obvion Woon Hypotheek",
-                "mortgage_type": "Annuity",
-                "fixed_term": "10-year",
-                "interest_rate": "4.20%",
-                "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-Obvion.png"
             },
             {
                 "bank_name": "ING",
@@ -444,7 +444,7 @@
                 "mortgage_name": "bunq Easy Mortgage",
                 "mortgage_type": "Annuity",
                 "fixed_term": "10-year",
-                "interest_rate": "5.20%",
+                "interest_rate": "5.17%",
                 "logo_url": "https://www.hypotheker.nl/assets/images/logos_hypotheekaanbieders/Logo-Bunq.svg"
             }
         ]
